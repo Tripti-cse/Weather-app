@@ -1,0 +1,58 @@
+/* For devices with max-width 768px (tablets) */
+@media (max-width: 768px) {
+    .parameter-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .tab-container {
+        gap: 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .parameter {
+        width: 80%;
+    }
+}
+
+/* For devices with max-width 480px (mobile phones) */
+@media (max-width: 480px) {
+    .parameter-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    h1 {
+        font-size: 1.25rem;
+        padding-top: 10px;
+    }
+
+    .tab {
+        font-size: 0.9rem;
+        flex-direction: column;
+    }
+
+    .btn {
+        font-size: 0.75rem;
+        padding: 8px 20px;
+    }
+
+    .parameter {
+        width: 100%;
+    }
+
+    .form-container input {
+        width: calc(100% - 60px);
+        height: 25px;
+    }
+
+    .form-container .btn {
+        width: 25px;
+        height: 25px;
+    }
+}
